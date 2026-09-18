@@ -1,0 +1,67 @@
+
+### Best Customers
+      CustomerName  TotalSales  TotalProfit  TotalQuantity
+       Sean Miller    25043.05     -1980.74             50
+      Tamara Chand    19052.22      8981.32             42
+      Raymond Buch    15117.34      6976.10             71
+      Tom Ashbrook    14595.62      4703.79             36
+     Adrian Barton    14473.57      5444.81             73
+      Ken Lonsdale    14175.23       806.85            113
+      Sanjit Chand    14142.33      5757.41             87
+      Hunter Lopez    12873.30      5622.43             50
+      Sanjit Engle    12209.44      2650.68             78
+Christopher Conant    12129.07      2177.05             34
+
+### Best-selling Products
+                                               ProductName  UnitsSold  TotalSales
+                        Logitech P710e Mobile Speakerphone         75    11203.76
+                                                Xerox 1881         70     2167.35
+GBC Premium Transparent Covers with Diagonal Lined Pattern         67      780.46
+                Situations Contoured Folding Chairs, 4/Set         64     3641.27
+                                   Avery Arch Ring Binders         64     2068.82
+                        Chromcraft Round Conference Tables         61     8209.06
+                 Logitech G19 Programmable Gaming Keyboard         60    13756.54
+           Global Wood Trimmed Manager's Task Chair, Khaki         59     4166.88
+       Wilson Jones Turn Tabs Binder Tool for Ring Binders         59      212.08
+                                   DAX Wood Document Frame         57      839.68
+
+### Sales by Customer
+      CustomerName  TotalSales
+       Sean Miller    25043.05
+      Tamara Chand    19052.22
+      Raymond Buch    15117.34
+      Tom Ashbrook    14595.62
+     Adrian Barton    14473.57
+      Ken Lonsdale    14175.23
+      Sanjit Chand    14142.33
+      Hunter Lopez    12873.30
+      Sanjit Engle    12209.44
+Christopher Conant    12129.07
+
+### Sales by Product
+                                                                ProductName  TotalSales
+                                      Canon imageCLASS 2200 Advanced Copier    61599.82
+Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind    27453.38
+                      Cisco TelePresence System EX90 Videoconferencing Unit    22638.48
+                               HON 5400 Series Task Chairs for Big and Tall    21870.58
+                                 GBC DocuBind TL300 Electric Binding System    19823.48
+                           GBC Ibimaster 500 Manual ProClick Binding System    19024.50
+                                       Hewlett Packard LaserJet 3310 Copier    18839.69
+                  HP Designjet T520 Inkjet Large Format Printer - 24" Color    18374.90
+                                  GBC DocuBind P400 Electric Binding System    17965.07
+                                High Speed Automatic Electric Letter Opener    17030.31
+
+### INNER JOIN Report
+      CustomerName                                               ProductName  Quantity  SalesAmount
+       Sean Miller     Cisco TelePresence System EX90 Videoconferencing Unit         6     22638.48
+      Tamara Chand                     Canon imageCLASS 2200 Advanced Copier         5     17499.95
+      Raymond Buch                     Canon imageCLASS 2200 Advanced Copier         4     13999.96
+      Tom Ashbrook                     Canon imageCLASS 2200 Advanced Copier         4     11199.97
+      Hunter Lopez                     Canon imageCLASS 2200 Advanced Copier         3     10499.97
+     Adrian Barton          GBC Ibimaster 500 Manual ProClick Binding System        13      9892.74
+      Sanjit Chand                      Ibico EPK-21 Electric Binding System         5      9449.95
+      Bill Shonely          3D Systems Cube Printer, 2nd Generation, Magenta         7      9099.93
+      Sanjit Engle HP Designjet T520 Inkjet Large Format Printer - 24" Color         5      8749.95
+Christopher Conant                     Canon imageCLASS 2200 Advanced Copier         4      8399.98
+      Ken Lonsdale               High Speed Automatic Electric Letter Opener         5      8187.65
+      Becky Martin                 Lexmark MX611dhe Monochrome Laser Printer         8      8159.95
